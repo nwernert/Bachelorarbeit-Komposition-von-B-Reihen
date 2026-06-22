@@ -303,3 +303,7 @@ fgf = compose(f,gf,1//2,1)
 @test order_of_accuracy(fgf) == 2
 
 
+#test fuer compose(b, a, factor_b, factor_a) fuer einfarbige Baeume
+rando1 = randomize(coeffs2)
+rando2 = randomize(coeffs2)
+@test compose(rando1, rando2, normalize_stepsize = true) == compose(rando1, rando2, 1//2, 1//2)
