@@ -1,0 +1,5 @@
+[deps]
+BSeries = "ebb8d67c-85b4-416c-b05f-5f409e808f32"
+Latexify = "23fbe1c1-3f47-55db-b15f-69d7ec21a316"
+RootedTrees = "47965b36-3f3e-11e9-0dcf-4570dfd42a8c"
+SymPyPythonCall = "bc8888f7-b21e-4b7c-a06a-5d9c9496438c"
