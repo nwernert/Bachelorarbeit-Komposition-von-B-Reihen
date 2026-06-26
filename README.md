@@ -10,4 +10,7 @@ Der code soll die Projekte RootedTrees.jl und BSeries.jl erweitern und enthält
 
 -compose(b, a, factor_b, factor_a), eine Verallgemeinerung von compose(b, a; normalize_stepsize = false) für möglicherweise unterschiedliche Schrittweiten.
 
-Die obigen Funktionen und Tests für sie sind in der Datei invert_and_compose.jl enthalten. Um die Tests in dem Julia REPL auszuführen, führt man include("invert_and_compose.jl") aus.
+Die obigen Funktionen und Tests für sie sind in der Datei invert_and_compose.jl enthalten. Um die Tests in dem Julia REPL auszuführen, führt man folgende Schritte aus:
+1. Mit cd() navigiert man sich in den Ordner, wo Manifest.toml, Project.toml und invert_and_compose.jl enthalten sind.
+2. Mit Pkg.activate(".") aktiviert man das Projekt mit der richtigen Umgebung.
+3. Mit include("invert_and_compose.jl") führt man die Tests aus.
